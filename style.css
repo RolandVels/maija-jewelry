@@ -4,4 +4,40 @@
     padding: 0;
     scroll-behavior: smooth;
     text-decoration: none;
+
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+body h1{
+    font-weight: 500;
+}
+
+@media (min-width:320px) {
+    .content-wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    h1{
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .mobile-menu{
+        margin-top: 10px;
+    }
+}
+
+header{
+    background-color: #e9e6db;
 }
