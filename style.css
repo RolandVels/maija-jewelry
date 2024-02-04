@@ -59,9 +59,8 @@ body h1{
     }
 
     .slider{
-        width: 800px;
+        width: 320px;
         height: 500px;
-        margin-top: 4rem;
         border-radius: 1rem;
         overflow: hidden;
     }
@@ -81,7 +80,7 @@ body h1{
     }
 
     .slide img{
-        width: 800px;
+        width: 320px;
         height: 500px;
         object-fit: cover;
         object-position: center;
@@ -89,7 +88,7 @@ body h1{
       /* manual slide navigation start */
       .navigation-manual{
         position: absolute;
-        width: 800px;
+        width: 320px;
         height: 500px;
         display: flex;
         justify-content: center;
