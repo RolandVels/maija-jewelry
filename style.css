@@ -50,6 +50,11 @@ body h1{
         border-bottom: 1px solid #50505037;
         cursor: pointer;
     }
+
+    .nav li:active{
+      color: #dd6161;
+      border-bottom: 1px solid #50505037;
+  }
     /* navigation end */
     
     /* image slider start */
@@ -61,7 +66,6 @@ body h1{
     .slider{
         width: 320px;
         height: 500px;
-        border-radius: 1rem;
         overflow: hidden;
     }
 
@@ -132,7 +136,17 @@ body h1{
 }
 
 @media (min-width:375px) {
-    
+  .slider{
+    width: 375px;
+}
+
+.slide img{
+  width: 375px;
+}
+
+.navigation-manual{
+  width: 375x;
+}
 }
 
 header{
