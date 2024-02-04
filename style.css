@@ -17,6 +17,7 @@ body h1{
 }
 
 @media (min-width:320px) {
+    /* navigation start */
     .content-wrap{
         display: flex;
         justify-content: space-between;
@@ -28,6 +29,10 @@ body h1{
     h1{
       font-size: 32px;
       text-align: center;
+    }
+
+    h1 .underline{
+        border-bottom: 1px solid #dd6161;
     }
 
     .nav ul{
@@ -45,10 +50,86 @@ body h1{
         border-bottom: 1px solid #50505037;
         cursor: pointer;
     }
-
-    .mobile-menu{
-        margin-top: 10px;
+    /* navigation end */
+    
+    /* image slider start */
+    main{
+        display: flex;
+        justify-content: center;
     }
+
+    .slider{
+        width: 800px;
+        height: 500px;
+        margin-top: 4rem;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    .slides{
+        width: 500%;
+        height: 500px;
+        display: flex;
+    }
+
+    .slides input{
+        display: none;
+    }
+    
+    .slide{
+        transition: 1s;
+    }
+
+    .slide img{
+        width: 800px;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+    }
+      /* manual slide navigation start */
+      .navigation-manual{
+        position: absolute;
+        width: 800px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+      }
+
+      .manual-btn{
+        border: 2px solid #dd6161;
+        height: 5px;
+        width: 5px;
+        margin: 2px;
+        padding: 4px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 250ms;
+        margin-bottom: 1rem;
+      }
+
+      .manual-btn:not(:last-child){
+        margin-right: 1.5rem;
+      }
+      
+      .manual-btn:hover{
+        background-color: #dd6161;
+      }
+      
+      #radio1:checked ~ .first{
+        margin-left: 0;
+      }
+      #radio2:checked ~ .first{
+        margin-left: -20%;
+      }
+      #radio3:checked ~ .first{
+        margin-left: -40%;
+      }
+      #radio4:checked ~ .first{
+        margin-left: -60%;
+      }
+      /* manual slide navigation end */
+    /* image slider end */
 }
 
 @media (min-width:375px) {
