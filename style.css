@@ -29,10 +29,12 @@ body h1{
     h1{
       font-size: 32px;
       text-align: center;
+      user-select: none;
     }
 
     h1 .underline{
         border-bottom: 1px solid #dd6161;
+        user-select: none;
     }
 
     .nav ul{
@@ -43,6 +45,7 @@ body h1{
 
     .nav li{
         border-bottom: 1px solid transparent;
+        user-select: none;
     }
 
     .nav li:hover{
@@ -50,11 +53,6 @@ body h1{
         border-bottom: 1px solid #50505037;
         cursor: pointer;
     }
-
-    .nav li:active{
-      color: #dd6161;
-      border-bottom: 1px solid #50505037;
-  }
     /* navigation end */
     
     /* image slider start */
