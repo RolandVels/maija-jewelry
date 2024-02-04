@@ -26,6 +26,10 @@ body h1{
         margin-right: 10px;
     }
 
+    header{
+      background-color: #fffefa;
+    } 
+
     h1{
       font-size: 32px;
       text-align: center;
@@ -147,6 +151,18 @@ body h1{
 }
 }
 
-header{
-    background-color: #fffefa;
+
+@media (min-width:425px) {
+  .slider{
+    width: 425px;
 }
+
+.slide img{
+  width: 425px;
+}
+
+.navigation-manual{
+  width: 425px;
+}
+}
+
