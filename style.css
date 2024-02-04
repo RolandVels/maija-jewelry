@@ -66,7 +66,7 @@ body h1{
     }
 
     .slider{
-        width: 320px;
+        width: 100vw;
         height: 500px;
         overflow: hidden;
     }
@@ -86,7 +86,7 @@ body h1{
     }
 
     .slide img{
-        width: 320px;
+        width: 100vw;
         height: 500px;
         object-fit: cover;
         object-position: center;
@@ -94,7 +94,7 @@ body h1{
       /* manual slide navigation start */
       .navigation-manual{
         position: absolute;
-        width: 320px;
+        width: 100vw;
         height: 500px;
         display: flex;
         justify-content: center;
@@ -137,7 +137,7 @@ body h1{
     /* image slider end */
 }
 
-@media (min-width:375px) {
+/* @media (min-width:375px) {
   .slider{
     width: 375px;
 }
@@ -154,15 +154,15 @@ body h1{
 
 @media (min-width:425px) {
   .slider{
-    width: 425px;
+    width: 100vw;
 }
 
 .slide img{
-  width: 425px;
+  width: 100vw;
 }
 
 .navigation-manual{
-  width: 425px;
+  width: 100vw;
 }
-}
+} */
 
